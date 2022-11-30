@@ -10,6 +10,9 @@ function App() {
           <Route element={<Home />} path="/" />
         </Route>
       </Routes>
+      <div className="test">
+        <h1>Bonjoir</h1>
+      </div>
     </div>
   );
 }
